@@ -1,6 +1,7 @@
 # Machine Learning Projects
 
-Welcome to my Machine Learning Projects page!  
+Welcome to my Machine Learning Projects page!
+
 Here, I showcase a variety of machine learning concepts and techniques through code to solve interesting and practical problems.
 
 Feel free to explore the projects, provide feedback, or even suggest new ideas.  
