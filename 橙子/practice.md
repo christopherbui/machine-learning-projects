@@ -9,5 +9,5 @@
 7. Remind yourself what number does counting start in Python. 0 or 1?
 8. In your list of strings, print the 1st item, print the 2nd item, print the 7th item.
 9. Next, we'll learn conditional statements: i.e. if, else.
-   - In your list of 10 strings, print every even-positioned item. 0 is considered even.
+   - In your list of 10 strings, print every even-indexed item. 0 is considered even.
 10. Kiss your  bf.
