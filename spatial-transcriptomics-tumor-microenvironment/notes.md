@@ -19,6 +19,7 @@ Spatial Transcriptomics (ST) datasets include the following type of data:
    - contains spatially resolved gene expression from human cancer samples
    - example dataset: **breast cancer spatial transcriptomics**
    - https://www.10xgenomics.com/datasets/20k-mixture-of-nsclc-dtcs-from-7-donors-3-v3-1-with-intronic-reads-3-1-standard
+   - **This dataset has spatial coordinates data:** https://www.10xgenomics.com/datasets/human-lung-cancer-11-mm-capture-area-ffpe-2-standard
 2. **Spatial DB**
    - collection of spatial transcriptomics datasets
    - contains pancreatic cancer, melanoma, and lung cancer samples
@@ -29,21 +30,21 @@ Spatial Transcriptomics (ST) datasets include the following type of data:
 
 **10X Processed Dataset Explained:**
 
-| File Name                | Type    | Description                                     | How to Use                        |
-| ------------------------ | ------- | ----------------------------------------------- | --------------------------------- |
-| Summary HTML             | .html   | Interactive summary of dataset                  | Open in a browser for metadata    |
-| Summary CSV              | .csv    | Metadata & quality metrics                      | Load into Pandas for QC checks    |
-| Loupe Browser File       | .cloupe | Interactive data file for 10x Loupe Browser     | Open in Loupe Browser             |
-| Genome-Aligned BAM       | .bam    | Raw read alignments (mapped to genome)          | Use for custom RNA-seq processing |
-| BAM Index                | .bai    | Index file for BAM                              | Needed for BAM processing         |
-| Sample Barcodes          | .csv    | Cell barcodes identifying unique cells          | Used to map cells                 |
-| Feature/Cell Matrix HDF5 | .h5     | Gene expression matrix                          | Main file for analysis in Python! |
-| Feature/Cell Matrix (GZ) | .gz     | Alternative gene expression format (compressed) | Use scanpy to read                |
-| Per-Molecule Read Info   | .h5     | Raw molecule-level counts                       | Rarely used directly              |
-| Feature Reference        | .csv    | List of genes measured                          | Links gene IDs to names           |
-| Clustering Analysis      | .gz     | Precomputed clusters                            | Can be used for visualization     |
+| File Name                | Type    | Description                                     | How to Use                            |
+| ------------------------ | ------- | ----------------------------------------------- | ------------------------------------- |
+| Summary HTML             | .html   | Interactive summary of dataset                  | Open in a browser for metadata        |
+| Summary CSV              | .csv    | Metadata & quality metrics                      | Load into Pandas for QC checks        |
+| Loupe Browser File       | .cloupe | Interactive data file for 10x Loupe Browser     | Open in Loupe Browser                 |
+| Genome-Aligned BAM       | .bam    | Raw read alignments (mapped to genome)          | Use for custom RNA-seq processing     |
+| BAM Index                | .bai    | Index file for BAM                              | Needed for BAM processing             |
+| Sample Barcodes          | .csv    | Cell barcodes identifying unique cells          | Used to map cells                     |
+| Feature/Cell Matrix HDF5 | .h5     | Gene expression matrix                          | **Main file for analysis in Python!** |
+| Feature/Cell Matrix (GZ) | .gz     | Alternative gene expression format (compressed) | Use scanpy to read                    |
+| Per-Molecule Read Info   | .h5     | Raw molecule-level counts                       | Rarely used directly                  |
+| Feature Reference        | .csv    | List of genes measured                          | Links gene IDs to names               |
+| Clustering Analysis      | .gz     | Precomputed clusters                            | Can be used for visualization         |
 
-**10X Raw vs Processed Dataset**
+**10X Raw vs Processed Dataset:**
 
 | Dataset                                                      | Pros                                                         | Cons                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
