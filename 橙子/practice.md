@@ -7,6 +7,7 @@
 5. Find the result of 180 divided by 30, assign the result to a variable and print it.
 6. Make a string variable that is 8. Make a numeric variable that is 8. In one line, add these 2 together, and assign result to a variable. What happens? Why do you see what you see?
 7. Remind yourself what number does counting start in Python. 0 or 1?
-8. Next, we'll learn conditional statements: i.e. if, else.
+8. In your list of strings, print the 1st item, print the 2nd item, print the 7th item.
+9. Next, we'll learn conditional statements: i.e. if, else.
    - In your list of 10 strings, print every even-positioned item. 0 is considered even.
-9. Kiss your  bf.
+10. Kiss your  bf.
