@@ -11,3 +11,4 @@
 9. Next, we'll learn conditional statements: i.e. if, else.
    - In your list of 10 strings, print every even-indexed item. 0 is considered even.
 10. Kiss your  bf.
+11. Print the items in your donut list backwards.
