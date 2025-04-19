@@ -134,6 +134,22 @@ Tissue spots indicate regions within the tissue, and usually is colored to indic
 
 **Violin Plots** depict the distribution of certain values per cell via **kernel density estimation (KDE)**. A histogram depicts the discrete distribution of value counts, but violin plots transform the discrete counts into a continuous density distribution. A box and whisker plot might be overlayed on top of the violin plot for additional information of the data.
 
+## Graph Convolutional Network (GCN)
+
+https://www.topbots.com/graph-convolutional-networks/
+
+How to encode documents into vectors (embedding / tf-idf)
+
+![gcn](img/gcn.png)
+
+1. Generate graph via KNN to get K edges for each node, or use **adjacency matrix**.
+
+2. Take average (or any other aggregate function) of each node's features. (GCN Layer)
+
+3. Average feature vector is input into a fully connected layer.
+
+   
+
 
 
 
